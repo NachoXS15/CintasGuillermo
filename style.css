@@ -1,21 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=DM+Serif+Display&display=swap");
 
-body {
+
+body{
+    width: 100%;
     background-image: url(assets/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 2em;
+    padding: 0 3em;
     font-family: Cinzel;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+    margin-top: 4em;
 }
 
 h1 {
